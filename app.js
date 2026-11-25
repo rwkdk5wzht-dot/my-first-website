@@ -32,6 +32,9 @@ const copy = {
 };
 
 const sample = [
+  { id: 'seasonal-flowers', name: { zh: '四季花开', ja: '四季の花' },
+    description: '', status: 'planned', priority: 'normal', progress: 0, due: '',
+    tasks: [], risks: [] },
   { id: 'atlas', name: { zh: '个人作品集改版', ja: 'ポートフォリオ刷新' },
     description: { zh: '整理项目案例，优化移动端作品展示。', ja: '制作事例を整理し、モバイルでの表示を改善する。' },
     status: 'active', priority: 'high', progress: 65, due: '2026-12-10',
